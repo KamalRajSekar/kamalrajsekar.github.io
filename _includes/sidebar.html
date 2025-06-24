@@ -18,12 +18,25 @@
   </div><!--//profile-container-->
 
   {% include contact.html %}
+  {% if sidebar.books %}
+    {% include books.html %}
+  {% endif %}
+
+  {% if sidebar.talks %}
+    {% include talks.html %}
+  {% endif %}
+
+  {% if sidebar.trainings %}
+    {% include trainings.html %}
+  {% endif %}
+
+  {% if sidebar.oss %}
+  {% include oss-contributions.html %}
+  {% endif %}
 
   {% if sidebar.education %}
     {% include education.html %}
   {% endif %}
-
-  {% include language.html %}
   {% include interests.html %}
 
   {% if sidebar.about %}

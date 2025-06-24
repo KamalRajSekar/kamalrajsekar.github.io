@@ -9,15 +9,27 @@ layout: default
   {% include education.html %}
 {% endunless %}
 
+{% unless site.data.data.sidebar.books %}
+  {% include books.html %}
+{% endunless %}
+
+{% unless site.data.data.sidebar.talks %}
+  {% include talks.html %}
+{% endunless %}
+
+{% unless site.data.data.sidebar.trainings %}
+  {% include trainings.html %}
+{% endunless %}
+
+{% unless site.data.data.sidebar.oss %}
+  {% include oss-contributions.html %}
+{% endunless %}
+
 {% include experiences.html %}
 
 {% include certifications.html %}
 
 {% include projects.html %}
-
-{% include oss-contributions.html %}
-
-{% include publications.html %}
 
 {% include recommendations.html %}
 

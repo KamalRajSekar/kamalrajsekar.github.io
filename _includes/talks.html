@@ -1,15 +1,15 @@
-{% assign oss = site.data.data.oss %}
-{% if oss %}
+{% assign talks = site.data.data.talks %}
+{% if talks %}
 <div class="languages-container container-block">
 
   <h2 class="container-block-title">
-    {{ oss.title }}
+    {{ talks.title }}
   </h2>
 
   <ul class="list-unstyled interests-list">
-    {% for oss in oss.contributions %}
+    {% for talk in talks.presentations %}
       <li>
-        <a href="{{ oss.link }}">{{ oss.title }}</a></li>
+        <a href="{{ talk.link }}">{{ talk.title }}</a></li>
       </li>
     {% endfor %}
   </ul>

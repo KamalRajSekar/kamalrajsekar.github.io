@@ -1,286 +1,188 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: true
+  education: true
+  books: true
+  oss: true
+  talks: true
+  trainings: true
+  name: Kamal Raj Sekar
+  tagline: 2x failed AI SaaS Maker | Published Author | Speaker | XP | Devops Coach | Open-source Contributor | Software Architect | Hands-on Techie
+  avatar: profile.jpg
+  email: notify.kamalraj@gmail.com
+  linkedin: kamalrajsekar
+  github: trycatchkamal
+  twitter: notifykamalraj
+  
+books:
+  title: Books Published
+  papers:
+    - title: TDD for C# and .Net Core
+      link: https://www.amazon.in/TDD-Net-Core-Microservices-simplified-ebook/dp/B0CW85JN2T?ref_=ast_author_dp
+      authors: Kamal Raj Sekar
 
-  # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    - title: TDD for Angular
+      link: https://www.amazon.in/TDD-Angular-Application-beginner-friendly-manual-ebook/dp/B0BRXMCKDJ
+      authors: Vivek Ganesan, Kamal Raj Sekar
+  
+oss:
+  title: Open-Source Contributions
+  contributions:
+    - title: Azure Notification Hubs Sample
+      link: https://github.com/trycatchkamal/azurenotificationhubssample
+      tagline: Sample repo demonstrating push notifications integration with Azure.
 
-  # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    - title: Akka HTTP PR Contributor
+      link: https://github.com/akka/akka-http/pull/2518
+      tagline: Contributed to Akka’s Scala-based actor system and HTTP components.
 
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
+    - title: Kanbanstr
+      link: https://github.com/vivganes/kanbanstr/commits/main/?author=trycatchkamal
+      tagline: Contributed features to this Nostr-based Kanban board app.
 
-    - idiom: French
-      level: Professional
+    - title: Zapddit
+      link: https://github.com/vivganes/zapddit/commits/main/?author=trycatchkamal
+      tagline: Helped build this Reddit-style client for the decentralized Nostr network.
+  
+talks:
+  title: Notable Public Talks 
+  presentations:
+  - title: AI tank symposium 
+    link: https://www.linkedin.com/posts/vikas-uppal-5208687_what-a-brilliant-talk-by-vivek-ganesan-and-activity-7314318703272071168-bDst?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAVbtn0BDNJ-psRdetZADoxp3K9oFJfvaSc
+  - title: GenAI Leadership Talk
+    link: https://www.linkedin.com/posts/pingala-software-india-pvt-ltd_leadershiptalk-genai-techtalk-activity-7309837629053661184-BG8r?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAVbtn0BDNJ-psRdetZADoxp3K9oFJfvaSc
+  - title: AI Webinars
+    link: https://www.linkedin.com/posts/pingala-software-india-pvt-ltd_leadershiptalk-genai-techtalk-activity-7309837629053661184-BG8r?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAVbtn0BDNJ-psRdetZADoxp3K9oFJfvaSc
+  - title: Technical Agility Conference 2020
+    link: https://www.youtube.com/watch?v=yJJgNMwFTow
+  - title: Agile Gurugram
+    link: https://www.youtube.com/watch?v=yJJgNMwFTow
 
-    - idiom: Spanish
-      level: Professional
-
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+trainings:
+  title: Public Trainings & Workshops Conducted 
+  sessions:
+  - title: AI Aware IT Leader (3.5 days) 
+    link: 
+  - title: Tech-Savvy IT Leader (3 days) 
+    link:
 
 career-profile:
-  title: Career Profile
+  title: Professional Summary
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    I'm an innovative and results-driven XP coach, DevOps advocate and software 
+    architect with over 15 years of hands-on experience in building cloud-native, 
+    distributed systems. 
+    
+    Author of a whitepaper on AI Agents,  Co-creator of 2 AI SaaS 
+    products FaceQuest and Notesally, solving real-world problems with AI. 
+    
+    I’ve had the privilege of working with high-performing teams across Fortune 500 and 
+    Deloitte Fast 50 companies, helping them boost their technical agility and adopt 
+    XP and DevOps practices that really stick. I lead with a servant mindset, guiding 
+    teams to craft scalable, test-driven solutions and drive ongoing improvement 
+    through lean and Agile principles. 
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - degree: B.Tech, Information Technology
+      university: SASTRA University
+      time: 2005 – 2009
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - role: Cofounder & Director
+      time: March 2019 – Present
+      company: Ampyard
+      details: |
+        Authored the whitepaper *“Real Productivity, Rare Pushbacks”*, outlining a strategic framework for integrating AI agents into product development to boost team efficiency and reduce resistance.
+
+        Built the MVPs for two AI SaaS products:
+        - **FaceQuest** – AI-powered facial recognition platform supporting both 1:1 face verification and 1:N face search.
+        - **Notesally** – AI assistant to enhance sales productivity and improve CRM data quality through intelligent note management.
+
+    - role: Technology Consultant
+      time: April 2018 – May 2025
+      company: TEKenable Ltd
+      details: |
+        ★ Architected and developed scalable, cloud-native systems with a focus on 
+        automation and quality. 
+
+        ★ Executed Agile transformation engagements, mentoring teams on XP, 
+        TDD, pair programming, and DevOps culture 
+
+        ★ Designed CI/CD pipelines on Azure, improving release velocity and 
+        feedback cycles. 
+
+        ★ Implemented Infrastructure as Code (IaC) using ARM templates for 
+        automated, version-controlled deployments. 
+
+        ★ Mentored XP champions & scrum masters in clean code, technical agility, 
+        and sustainable delivery practices. 
+
+        ★ Conducted workshops on tech agility, test automation, and DevOps 
+        pipelines. 
+
+    - role: Technical Team Lead & Scrum Master
+      time: October 2015 – April 2018
+      company: Greenfinch Technology Ltd
+      details: |
+        ★ Modernized legacy codebases into well-architected distributed systems 
+        using TDD and clean code practices.
+
+        ★ Drove DevOps initiatives to establish automated build, test, and 
+        deployment pipelines. 
+
+        ★ Delivered new features iteratively in tight delivery cycles, enhancing 
+        responsiveness. 
+
+        ★ Mentored cross-functional teams in Agile, XP, and continuous delivery 
+        best practices. 
+
+    - role: Senior Software Engineer
+      time: October 2012 – September 2015
+      company: Philips Healthcare R&D India
+      details: |
+        ★ Redesigned legacy MRI apps into modular, layered architectures. 
+
+        ★ Developed a reflection framework that optimized UI responsiveness and 
+        reduced overhead. 
+
+        ★ Championed Agile practices, mentoring juniors in TDD, CI/CD, and 
+        iterative delivery.
+
+    - role: Engineer
+      time: January 2010 – October 2012
+      company: Honeywell Technology Solutions
+      details: |
+        ★ Built mobile and backend systems for remote patient monitoring using 
+        Android and Bluetooth devices. 
+
+        ★ Delivered enterprise-grade solutions in Agile teams. 
+
+        ★ Recognized for contributions to improvement initiatives.
 
 certifications:
   title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  list: 
+  - name: PSM 1
+    start: 2025
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+      Certified Scrum Master (PSM I) from Scrum.org, demonstrating proficiency in Scrum principles and practices.
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Skills & Proficiency
 
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+  toolset: 
+  - name: ● GenAI & AI Agents 
+  - name: ● XP & Agile Coaching
+  - name: ● TDD & BDD 
+  - name: ● Hands-on Technical Agility 
+  - name: ● Servant Leadership 
+  - name: ● Technical Mentorship 
+  - name: ● Training & Mentoring 
+  - name: ● CI/CD · DevOps · Infrastructure as Code (IaC) 
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
